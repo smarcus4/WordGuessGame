@@ -1,0 +1,50 @@
+* {
+    box-sizing: border-box;
+  }
+html,body { 
+    height:100%; 
+    display:flex;
+    flex-direction:column; 
+}
+
+.background-header{
+    background-color: skyblue;
+    padding: 1em 1em;
+    color: white;
+    margin: 0;
+    
+}
+
+.container-fluid{
+    background-color: rgba(62, 157, 198, 0.714);
+    flex-grow: 1;
+    
+}
+
+#gameButton{
+    outline:none;
+    border:none;
+    cursor: pointer;
+    display: block;
+    background-color: #1171ac;
+    font-size: 18px;
+    font-weight: bold;
+    padding: 25px;
+    color: white;
+    text-transform: uppercase;
+    border-radius: 15px;
+}
+
+#gameButton:hover{
+    color:white;
+    background-color: rgb(78, 201, 137);
+}
+
+#gameButton:active{
+    color: white;
+    background-color: pink;
+}
+
+#placeHolders{
+    font-size: 50px;
+}
