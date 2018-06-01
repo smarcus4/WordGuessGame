@@ -1,2 +1,2 @@
 # Hangman-game
-Homework Assignment #3 for Berkeley Coding Bootcamp
+Homework Assignment #3
